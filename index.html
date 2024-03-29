@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <!-- saved from url=(0048)https://getbootstrap.com/docs/5.3/examples/blog/ -->
-<html lang="en" data-bs-theme="auto"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Blog Template · Bootstrap v5.3_files/color-modes.js"></script>
+<html lang="en" data-bs-theme="auto"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="/resources/color-modes.js"></script>
 
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Secure Tesseract &#8211; Insight, Direction, Solutions, Support</title>
+    <title>Secure Tesseract - Insight, Direction, Solutions, Support</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
 
     
 
-    <link rel="stylesheet" href="./Blog Template · Bootstrap v5.3_files/css@3">
+    <link rel="stylesheet" href="/resources/css@3">
 
-<link href="./Blog Template · Bootstrap v5.3_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link href="/resources/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Favicons -->
-<link rel="icon" type="image/png" href="./favicon.png" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
 <meta name="theme-color" content="#000000">
 
 
@@ -117,9 +117,9 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="./Blog Template · Bootstrap v5.3_files/css" rel="stylesheet">
+    <link href="/resources/css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="./Blog Template · Bootstrap v5.3_files/blog.css" rel="stylesheet">
+    <link href="/resources/blog.css" rel="stylesheet">
   </head>
   <body style="background:black;">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -156,7 +156,7 @@
   <header class=" lh-1 py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="link-secondary" href="./"><img src="logo.png"></a>
+        <a class="link-secondary" href="./"><img src="/images/logo.png"></a>
       </div>
       <div class="col-4 text-center">
         
@@ -171,7 +171,7 @@
   <div class="nav-scroller py-1 mb-5 ">
     <nav class="nav justify-content-between">
       <a class="nav-item nav-link text-white" href="./">Home</a>
-      <a class="nav-item nav-link text-white" href="./artificial-intelligence">A.I.</a>
+      <a class="nav-item nav-link text-white" href="./artificial-intelligence">AI</a>
       <a class="nav-item nav-link text-white" href="./education">Education</a>
       <a class="nav-item nav-link text-white" href="./health">Health</a>
       <a class="nav-item nav-link text-white" href="./yoga">Yoga</a>
@@ -180,7 +180,7 @@
 </div>
 
 <main class="container">
-  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis" style="background: url('bg2.jpg');">
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis" style="background: url('/images/bg2.jpg');">
     <div class="col-lg-6 px-0">
       <h1 class="display-4 fst-italic text-white">What are you seeking?</h1>
       <p class="lead my-3 text-white">Get insights, direction, solutions, and support.</p>
@@ -193,22 +193,26 @@
   <h2 class="text-white text-center mt-5">Questions?</h2>
   <p class="text-white text-center">Please contact me below if you feel so compelled.</p>
 
+  <form
+    action="https://formspree.io/f/xbjnzkpr"
+    method="POST"
+  >
   <div class="mb-3 text-white">
     <label for="exampleFormControlInput1" class="form-label">Name *</label>
-    <input type="text" class="form-control form-control-lg bg-dark text-white border-secondary" id="exampleFormControlInput1" placeholder="Your name">
+    <input type="text" class="form-control form-control-lg bg-dark text-white border-secondary" id="exampleFormControlInput1" placeholder="Your name" name="name" required>
   </div>
   <div class="mb-3 text-white">
     <label for="exampleFormControlInput1" class="form-label">Email Address *</label>
-    <input type="email" class="form-control form-control-lg bg-dark text-white border-secondary" id="exampleFormControlInput1" placeholder="name@example.com">
+    <input type="email" class="form-control form-control-lg bg-dark text-white border-secondary" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
   </div>
   <div class="mb-3 text-white">
     <label for="exampleFormControlTextarea1" class="form-label">How can we help? *</label>
-    <textarea class="form-control form-control-lg bg-dark text-white border-secondary" id="exampleFormControlTextarea1" rows="3" placeholder="How can we help you?"></textarea>
+    <textarea name="message" required class="form-control form-control-lg bg-dark text-white border-secondary" id="exampleFormControlTextarea1" rows="3" placeholder="How can we help you?"></textarea>
   </div>
   <div class="mb-3 text-white">
     <button type="submit" class="btn btn-lg text-white mb-3" style="background: #6d27c4;">Ask Now</button>
   </div>
-
+  </form>
   <!-- <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
     <fieldset id="fs-frm-inputs">
       <label for="full-name">Full Name</label>
@@ -227,12 +231,12 @@
 <footer class="py-5 text-center text-body-secondary">
   <p><a target="_blank" style="color:#ac66f9;" href="https://blogs.scientificamerican.com/observations/the-hippies-were-right-its-all-about-vibrations-man/">Conscious Frequencies</a> | <a target="_blank" href="https://www.theawakenedstate.net/kundalini-awakening/" style="color:#ac66f9;">Divinity</a> | <a target="_blank" href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism" style="color:#ac66f9;">Effective Altruism</a></p>
   <p class="mb-0 text-white">
-    Copyright © 2023 | Secure Tesseract Consulting. All Rights Reserved.
+    Copyright © <span id="current-year"></span> | Secure Tesseract Consulting. All Rights Reserved.
   </p>
 </footer>
 
-<script src="./Blog Template · Bootstrap v5.3_files/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+<script src="/resources/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="/resources/custom.js"></script>
     
 
 </body></html>
